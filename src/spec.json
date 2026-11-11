@@ -1,0 +1,285 @@
+{
+  "title": "Gestione trasporto sociale",
+  "description": "Prototipo navigabile per coordinare prenotazioni, calendario delle corse e turni dei volontari, usando esclusivamente dati inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica delle corse programmate e della disponibilità settimanale.",
+      "metrics": [
+        {
+          "label": "Corse questa settimana",
+          "value": "18"
+        },
+        {
+          "label": "Posti liberi",
+          "value": "12"
+        },
+        {
+          "label": "Prenotazioni confermate",
+          "value": "24"
+        },
+        {
+          "label": "Turni volontari coperti",
+          "value": "15"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Orario",
+        "Destinazione",
+        "Volontario autista",
+        "Posti liberi"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "08:30",
+          "Centro diurno Lumo",
+          "Vela",
+          "2"
+        ],
+        [
+          "Lunedì",
+          "10:15",
+          "Ambulatorio Nubi",
+          "Ramo",
+          "1"
+        ],
+        [
+          "Martedì",
+          "09:00",
+          "Centro diurno Lumo",
+          "Nemi",
+          "3"
+        ],
+        [
+          "Mercoledì",
+          "11:00",
+          "Ambulatorio Vela",
+          "Lumo",
+          "2"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prenotazioni",
+      "title": "Prenotazioni",
+      "description": "Consulta e filtra le richieste di trasporto. Il modulo consente di registrare una nuova prenotazione.",
+      "metrics": [
+        {
+          "label": "In attesa",
+          "value": "3"
+        },
+        {
+          "label": "Confermate",
+          "value": "24"
+        },
+        {
+          "label": "Da completare oggi",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Utente",
+        "Destinazione",
+        "Data",
+        "Orario",
+        "Volontario autista",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Neri Lumo",
+          "Centro diurno Lumo",
+          "12/06/2026",
+          "08:30",
+          "Vela",
+          "Confermata"
+        ],
+        [
+          "Sera Nubi",
+          "Ambulatorio Vela",
+          "12/06/2026",
+          "10:15",
+          "Ramo",
+          "Confermata"
+        ],
+        [
+          "Timo Rava",
+          "Centro diurno Lumo",
+          "13/06/2026",
+          "09:00",
+          "Nemi",
+          "In attesa"
+        ],
+        [
+          "Lina Fero",
+          "Ambulatorio Nubi",
+          "14/06/2026",
+          "11:00",
+          "Lumo",
+          "Confermata"
+        ],
+        [
+          "Miro Vela",
+          "Centro diurno Lumo",
+          "15/06/2026",
+          "08:45",
+          "Rava",
+          "In attesa"
+        ]
+      ],
+      "form": [
+        "Utente",
+        "Destinazione",
+        "Data",
+        "Orario",
+        "Volontario autista",
+        "Stato"
+      ]
+    },
+    {
+      "id": "calendario",
+      "title": "Calendario corse",
+      "description": "Visualizza le corse della settimana per giorno, orario, destinazione e disponibilità.",
+      "metrics": [
+        {
+          "label": "Corse in calendario",
+          "value": "18"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "12"
+        },
+        {
+          "label": "Destinazioni attive",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Data",
+        "Orario",
+        "Destinazione",
+        "Volontario autista",
+        "Posti liberi"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "12/06/2026",
+          "08:30",
+          "Centro diurno Lumo",
+          "Vela",
+          "2"
+        ],
+        [
+          "Lunedì",
+          "12/06/2026",
+          "10:15",
+          "Ambulatorio Nubi",
+          "Ramo",
+          "1"
+        ],
+        [
+          "Martedì",
+          "13/06/2026",
+          "09:00",
+          "Centro diurno Lumo",
+          "Nemi",
+          "3"
+        ],
+        [
+          "Mercoledì",
+          "14/06/2026",
+          "11:00",
+          "Ambulatorio Vela",
+          "Lumo",
+          "2"
+        ],
+        [
+          "Giovedì",
+          "15/06/2026",
+          "08:45",
+          "Centro diurno Lumo",
+          "Rava",
+          "4"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "turni-volontari",
+      "title": "Turni volontari",
+      "description": "Consulta e filtra i turni assegnati agli autisti volontari.",
+      "metrics": [
+        {
+          "label": "Turni assegnati",
+          "value": "15"
+        },
+        {
+          "label": "Volontari disponibili",
+          "value": "6"
+        },
+        {
+          "label": "Turni da coprire",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Volontario autista",
+        "Giorno",
+        "Data",
+        "Orario",
+        "Destinazione",
+        "Stato turno"
+      ],
+      "rows": [
+        [
+          "Vela",
+          "Lunedì",
+          "12/06/2026",
+          "08:30",
+          "Centro diurno Lumo",
+          "Confermato"
+        ],
+        [
+          "Ramo",
+          "Lunedì",
+          "12/06/2026",
+          "10:15",
+          "Ambulatorio Nubi",
+          "Confermato"
+        ],
+        [
+          "Nemi",
+          "Martedì",
+          "13/06/2026",
+          "09:00",
+          "Centro diurno Lumo",
+          "Confermato"
+        ],
+        [
+          "Lumo",
+          "Mercoledì",
+          "14/06/2026",
+          "11:00",
+          "Ambulatorio Vela",
+          "Confermato"
+        ],
+        [
+          "Rava",
+          "Giovedì",
+          "15/06/2026",
+          "08:45",
+          "Centro diurno Lumo",
+          "Da confermare"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}

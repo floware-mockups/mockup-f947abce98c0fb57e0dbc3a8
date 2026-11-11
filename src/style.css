@@ -1,0 +1,4 @@
+@import "tailwindcss";
+:root { font-family: var(--mk-font-body); color: var(--mk-text); background: var(--mk-bg); }
+h1, h2, h3 { font-family: var(--mk-font-heading); }
+button, a, input { outline-offset: 4px; } button, a { cursor: pointer; }

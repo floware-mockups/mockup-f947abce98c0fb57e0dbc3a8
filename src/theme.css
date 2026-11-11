@@ -1,0 +1,240 @@
+/* Generato da shared/mockupTheme.ts (WZ-2039). Non modificare a mano. */
+:root {
+  --mk-bg: #f4f6fb;
+  --mk-surface: #ffffff;
+  --mk-subtle: #f8fafc;
+  --mk-text: #172033;
+  --mk-muted: #475569;
+  --mk-border: #64748b;
+  --mk-divider: #cbd5e1;
+  --mk-primary: #4f46e5;
+  --mk-on-primary: #ffffff;
+  --mk-danger: #be123c;
+  --mk-sidebar: #ffffff;
+  --mk-on-sidebar: #172033;
+  --mk-sidebar-muted: #475569;
+  --mk-nav-active: #4f46e5;
+  --mk-on-nav-active: #ffffff;
+  --mk-font-heading: ui-sans-serif, system-ui, sans-serif;
+  --mk-font-body: ui-sans-serif, system-ui, sans-serif;
+  --mk-sidebar-hover: color-mix(in srgb, var(--mk-on-sidebar) 12%, var(--mk-sidebar));
+}
+:root[data-accent="indigo"] {
+  --mk-primary: #4f46e5;
+  --mk-nav-active: #4f46e5;
+}
+:root[data-accent="emerald"] {
+  --mk-primary: #047857;
+  --mk-nav-active: #047857;
+}
+:root[data-accent="rose"] {
+  --mk-primary: #be123c;
+  --mk-nav-active: #be123c;
+}
+:root[data-palette="blu-istituzionale"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #f2f5f9;
+  --mk-subtle: #e8eef6;
+  --mk-text: #1a2433;
+  --mk-muted: #4a5868;
+  --mk-border: #7c8a9c;
+  --mk-divider: #d3dbe6;
+  --mk-primary: #0059b3;
+  --mk-danger: #b3261e;
+  --mk-sidebar: #ffffff;
+  --mk-on-sidebar: #1a2433;
+  --mk-sidebar-muted: #4a5868;
+  --mk-nav-active: #0059b3;
+  --mk-on-nav-active: #ffffff;
+}
+:root[data-palette="blu-notte"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #f4f6fa;
+  --mk-subtle: #e9edf5;
+  --mk-text: #141c2b;
+  --mk-muted: #4b5566;
+  --mk-border: #7a8496;
+  --mk-divider: #d5dbe6;
+  --mk-primary: #1f4e8c;
+  --mk-danger: #b42318;
+  --mk-sidebar: #13213c;
+  --mk-on-sidebar: #ffffff;
+  --mk-sidebar-muted: #c5d0e3;
+  --mk-nav-active: #ffffff;
+  --mk-on-nav-active: #13213c;
+}
+:root[data-palette="verde-istituzionale"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #f3f7f4;
+  --mk-subtle: #e6f0ea;
+  --mk-text: #13241a;
+  --mk-muted: #4a5a50;
+  --mk-border: #7a8c80;
+  --mk-divider: #d2ded6;
+  --mk-primary: #006b3c;
+  --mk-danger: #b3261e;
+  --mk-sidebar: #ffffff;
+  --mk-on-sidebar: #13241a;
+  --mk-sidebar-muted: #4a5a50;
+  --mk-nav-active: #006b3c;
+  --mk-on-nav-active: #ffffff;
+}
+:root[data-palette="rosso-civico"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #faf5f4;
+  --mk-subtle: #f4e6e4;
+  --mk-text: #2a1416;
+  --mk-muted: #5e4a4c;
+  --mk-border: #93807f;
+  --mk-divider: #e6d6d4;
+  --mk-primary: #a4182c;
+  --mk-danger: #8e1b12;
+  --mk-sidebar: #ffffff;
+  --mk-on-sidebar: #2a1416;
+  --mk-sidebar-muted: #5e4a4c;
+  --mk-nav-active: #a4182c;
+  --mk-on-nav-active: #ffffff;
+}
+:root[data-palette="bordeaux-oro"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #fbf7f1;
+  --mk-subtle: #f3eadb;
+  --mk-text: #2b1e1a;
+  --mk-muted: #5f5148;
+  --mk-border: #94857a;
+  --mk-divider: #e7dccb;
+  --mk-primary: #7a2337;
+  --mk-danger: #a3211b;
+  --mk-sidebar: #5a1a2c;
+  --mk-on-sidebar: #ffffff;
+  --mk-sidebar-muted: #ebd3d9;
+  --mk-nav-active: #e9c46a;
+  --mk-on-nav-active: #2b1a0e;
+}
+:root[data-palette="delta-sabbia"] {
+  --mk-bg: #f8f4ea;
+  --mk-surface: #fffdf8;
+  --mk-subtle: #efe7d4;
+  --mk-text: #1e2a30;
+  --mk-muted: #52585a;
+  --mk-border: #8b8577;
+  --mk-divider: #e3dac6;
+  --mk-primary: #005f87;
+  --mk-on-primary: #ffffff;
+  --mk-danger: #a3211b;
+  --mk-sidebar: #eaf3f6;
+  --mk-on-sidebar: #13303d;
+  --mk-sidebar-muted: #3f5862;
+  --mk-nav-active: #005f87;
+  --mk-on-nav-active: #ffffff;
+}
+:root[data-palette="petrolio"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #f2f7f7;
+  --mk-subtle: #e2eeef;
+  --mk-text: #10262a;
+  --mk-muted: #47595c;
+  --mk-border: #78898c;
+  --mk-divider: #d0dfe0;
+  --mk-primary: #0b6270;
+  --mk-danger: #b3261e;
+  --mk-sidebar: #0e3b43;
+  --mk-on-sidebar: #ffffff;
+  --mk-sidebar-muted: #bfdde0;
+  --mk-nav-active: #b9e4dc;
+  --mk-on-nav-active: #0e3b43;
+}
+:root[data-palette="ardesia"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #f6f7f8;
+  --mk-subtle: #ebeef1;
+  --mk-text: #1c2329;
+  --mk-muted: #4f5b65;
+  --mk-border: #808b95;
+  --mk-divider: #d9dee3;
+  --mk-primary: #37474f;
+  --mk-danger: #b3261e;
+  --mk-sidebar: #e9edf0;
+  --mk-on-sidebar: #1c2329;
+  --mk-sidebar-muted: #4a5560;
+  --mk-nav-active: #37474f;
+  --mk-on-nav-active: #ffffff;
+}
+:root[data-palette="terracotta"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #fbf6f2;
+  --mk-subtle: #f3e6dc;
+  --mk-text: #2a1c15;
+  --mk-muted: #5e4f46;
+  --mk-border: #95847a;
+  --mk-divider: #e8d9cd;
+  --mk-primary: #9c3d1a;
+  --mk-danger: #a01f2b;
+  --mk-sidebar: #ffffff;
+  --mk-on-sidebar: #2a1c15;
+  --mk-sidebar-muted: #5e4f46;
+  --mk-nav-active: #9c3d1a;
+  --mk-on-nav-active: #ffffff;
+}
+:root[data-palette="verde-oliva"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #f6f7f0;
+  --mk-subtle: #eceedf;
+  --mk-text: #1f2414;
+  --mk-muted: #545b45;
+  --mk-border: #858c76;
+  --mk-divider: #dde0cf;
+  --mk-primary: #4f6329;
+  --mk-danger: #b3261e;
+  --mk-sidebar: #2e3a1e;
+  --mk-on-sidebar: #ffffff;
+  --mk-sidebar-muted: #d6dec4;
+  --mk-nav-active: #e3ebc9;
+  --mk-on-nav-active: #2e3a1e;
+}
+:root[data-palette="prugna"] {
+  --mk-surface: #ffffff;
+  --mk-on-primary: #ffffff;
+  --mk-bg: #f7f5fa;
+  --mk-subtle: #ece7f3;
+  --mk-text: #221a2b;
+  --mk-muted: #574d63;
+  --mk-border: #887e94;
+  --mk-divider: #ddd6e7;
+  --mk-primary: #5e3a7e;
+  --mk-danger: #b3261e;
+  --mk-sidebar: #ffffff;
+  --mk-on-sidebar: #221a2b;
+  --mk-sidebar-muted: #574d63;
+  --mk-nav-active: #5e3a7e;
+  --mk-on-nav-active: #ffffff;
+}
+:root[data-fonts="istituzionale"] {
+  --mk-font-heading: "Titillium Web", ui-sans-serif, system-ui, sans-serif;
+  --mk-font-body: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+}
+:root[data-fonts="alta-leggibilita"] {
+  --mk-font-heading: "Atkinson Hyperlegible", ui-sans-serif, system-ui, sans-serif;
+  --mk-font-body: "Atkinson Hyperlegible", ui-sans-serif, system-ui, sans-serif;
+}
+:root[data-fonts="classico"] {
+  --mk-font-heading: "Source Serif 4", ui-serif, Georgia, serif;
+  --mk-font-body: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+}
+:root[data-fonts="editoriale"] {
+  --mk-font-heading: "Lora", ui-serif, Georgia, serif;
+  --mk-font-body: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+}
+:root[data-fonts="moderno"] {
+  --mk-font-heading: "Lexend", ui-sans-serif, system-ui, sans-serif;
+  --mk-font-body: "Lexend", ui-sans-serif, system-ui, sans-serif;
+}
